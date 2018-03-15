@@ -1,0 +1,27 @@
+{
+  "name": "microservices-startup",
+  "version": "1.0.0",
+  "description": "learning to build micro services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "prathamesh thorat",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.7",
+    "nodemon": "^1.17.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
