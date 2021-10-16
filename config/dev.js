@@ -1,4 +1,5 @@
 export const config = {
 	'secret': 'supersecret',
-	'db': ''
+	'db': '',
+	'abc':''
 }; 
